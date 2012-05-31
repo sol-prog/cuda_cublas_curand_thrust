@@ -1,0 +1,9 @@
+Here you could find the code for "Matrix multiplication on GPU using CUDA with CUBLAS, CURAND and Thrust", for more informations visit the project webpage:
+
+http://solarianprogrammer.com/2012/05/31/matrix-multiplication-cuda-cublas-curand-thrust/
+
+You could use this program under the terms of GPL v3, for more details see:
+
+http://www.gnu.org/copyleft/gpl.html
+
+Copyright 2012 Sol from www.solarianprogrammer.com
