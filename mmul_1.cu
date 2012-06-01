@@ -6,7 +6,7 @@
 #include <cublas_v2.h>
 #include <curand.h>
 
-// Fill the array A(nr_rows_A, nr_cols_A) with random numbers on CPU
+// Fill the array A(nr_rows_A, nr_cols_A) with random numbers on GPU
 void GPU_fill_rand(float *A, int nr_rows_A, int nr_cols_A) {
 	// Create a pseudo-random number generator
 	curandGenerator_t prng;
@@ -53,7 +53,7 @@ void print_matrix(const float *A, int nr_rows_A, int nr_cols_A) {
 }
 
 int main() {
-	// Allocate 3 arrays on GPU
+	// Allocate 3 arrays on CPU
 	int nr_rows_A, nr_cols_A, nr_rows_B, nr_cols_B, nr_rows_C, nr_cols_C;
 
 	// for simplicity we are going to use square arrays
