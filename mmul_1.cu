@@ -6,7 +6,7 @@
 #include <cublas_v2.h>
 #include <curand.h>
 
-// Fill the array A(nr_rows_A, nr_cols_A) with random numbers on GPU
+// Fill the array A(nr_rows_A, nr_cols_A) with random numbers on CPU
 void GPU_fill_rand(float *A, int nr_rows_A, int nr_cols_A) {
 	// Create a pseudo-random number generator
 	curandGenerator_t prng;
