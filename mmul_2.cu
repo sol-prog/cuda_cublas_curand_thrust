@@ -56,7 +56,7 @@ void print_matrix(const thrust::device_vector<float> &A, int nr_rows_A, int nr_c
 }
 
 int main() {
-	// Allocate 3 arrays on GPU
+	// Allocate 3 arrays on CPU
 	int nr_rows_A, nr_cols_A, nr_rows_B, nr_cols_B, nr_rows_C, nr_cols_C;
 
 	// for simplicity we are going to use square arrays
